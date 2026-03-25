@@ -1,0 +1,43 @@
+app/admin/charities/page.tsx(48,15): error TS2322: Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; }' is not assignable to type 'void'.
+app/admin/draws/page.tsx(27,15): error TS2322: Type '() => Promise<{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; } | { success: boolean; drawNumbers: number[]; winnersCount: number; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '() => Promise<{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; } | { success: boolean; drawNumbers: number[]; winnersCount: number; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; } | { success: boolean; drawNumbers: number[]; winnersCount: number; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; } | { success: boolean; drawNumbers: number[]; winnersCount: number; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; } | { success: boolean; drawNumbers: number[]; winnersCount: number; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; drawNumbers?: undefined; winnersCount?: undefined; }' is not assignable to type 'void'.
+app/admin/winners/page.tsx(65,27): error TS2322: Type '(formData: FormData) => Promise<{ success: boolean; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ success: boolean; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ success: boolean; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ success: boolean; }>' is not assignable to type 'Promise<void>'.
+        Type '{ success: boolean; }' is not assignable to type 'void'.
+app/dashboard/charity/page.tsx(44,15): error TS2322: Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; }' is not assignable to type 'void'.
+app/dashboard/scores/page.tsx(28,17): error TS2322: Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; }' is not assignable to type 'void'.
+app/dashboard/subscribe/page.tsx(40,17): error TS2322: Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; }' is not assignable to type 'void'.
+app/dashboard/subscribe/page.tsx(66,17): error TS2322: Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'string | ((formData: FormData) => void | Promise<void>) | undefined'.
+  Type '(formData: FormData) => Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type '(formData: FormData) => void | Promise<void>'.
+    Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'void | Promise<void>'.
+      Type 'Promise<{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }>' is not assignable to type 'Promise<void>'.
+        Type '{ error: string; success?: undefined; } | { success: boolean; error?: undefined; }' is not assignable to type 'void'.
+          Type '{ error: string; success?: undefined; }' is not assignable to type 'void'.
+src/app/layout.tsx(2,10): error TS2305: Module '"next/font/google"' has no exported member 'Geist'.
+src/app/layout.tsx(2,17): error TS2305: Module '"next/font/google"' has no exported member 'Geist_Mono'.

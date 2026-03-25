@@ -1,0 +1,21 @@
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\(auth)\login\page.tsx
+  79:14  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\admin\charities\page.tsx
+  89:25  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\admin\draws\page.tsx
+  25:98  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\charities\page.tsx
+  60:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\dashboard\charity\page.tsx
+  38:68  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\penum\.gemini\antigravity\scratch\golf-charity\app\dashboard\page.tsx
+  81:22  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+✖ 6 problems (4 errors, 2 warnings)
+
