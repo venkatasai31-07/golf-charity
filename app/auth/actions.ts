@@ -37,21 +37,25 @@ export async function signup(formData: FormData) {
     return { error: 'All fields are required' }
   }
 
-  const supabase = await createClient()
+  try {
+    const supabase = await createClient()
 
-  const { error } = await supabase.auth.signUp({
-    email,
-    password,
-    options: {
-      data: {
-        full_name: fullName,
-        role: role,
+    const { error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: {
+          full_name: fullName,
+          role: role,
+        },
       },
-    },
-  })
+    })
 
-  if (error) {
-    return { error: error.message }
+    if (error) {
+      return { error: error.message }
+    }
+  } catch (err: any) {
+    return { error: "Database setup error: Please ensure NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY are correctly saved in this Vercel project's Environment Variables and redeployed. (" + err?.message + ")" }
   }
 
   revalidatePath('/', 'layout')
