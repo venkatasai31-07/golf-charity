@@ -14,13 +14,21 @@ export async function login(formData: FormData) {
 
   const supabase = await createClient()
 
-  const { error } = await supabase.auth.signInWithPassword({
+  const { data, error } = await supabase.auth.signInWithPassword({
     email,
     password,
   })
 
   if (error) {
     return { error: error.message }
+  }
+
+  if (data?.user) {
+    const { data: profile } = await supabase.from('users').select('role').eq('id', data.user.id).single()
+    if (profile?.role === 'admin') {
+      revalidatePath('/', 'layout')
+      redirect('/admin')
+    }
   }
 
   revalidatePath('/', 'layout')
